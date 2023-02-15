@@ -29,23 +29,23 @@ class Game:
     def __str__(self):
         return f"{self.name} ({self.genre}) has a rating of {self.rating}."
 
-# Create a new instance of the GameSite class
+# Создаю новый экземпляр класса GameSite
 my_game_site = GameSite("My Game Site", "http://www.mygamesite.com", [])
 
-# Create some new Game objects
+#Создала несколько новых объектов игры
 game1 = Game("Pac-Man", "Arcade", 4.5)
 game2 = Game("Tetris", "Puzzle", 4.2)
 game3 = Game("Super Mario Bros.", "Platformer", 4.8)
 
-# Add the games to the game site
+# Добавила игры на игровой сайт
 my_game_site.add_game(game1)
 my_game_site.add_game(game2)
 my_game_site.add_game(game3)
 
-# Print out some information about the game site and its games
+# некоторые информаций об игровом сайте и его играх
 print(my_game_site)
 print("На этом сайте представлены следующие игры:", my_game_site.get_game_names())
 
-# Rate a game and print out its new rating
+# Оценила игру и добавила ее новый рейтинг
 game1.rate(4.7)
 print(game1)
