@@ -49,3 +49,5 @@ print("На этом сайте представлены следующие иг
 # Оценила игру и добавила ее новый рейтинг
 game1.rate(4.7)
 print(game1)
+
+#vdovjvopfjvpovjpo;pvjwovodv
